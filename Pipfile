@@ -12,7 +12,7 @@ name = "pypi"
 [packages]
 
 flask = {editable = true,git = "https://github.com/pallets/flask.git",ref = "dfd3619d6f8796d48fc4e32f819cec9e8aa59156"}
-gunicorn = "*"
+gunicorn = {editable = true,git = "https://github.com/benoitc/gunicorn.git",ref = "29f0394cdd381df176a3df3c25bb3fdd2486a173"}
 
 
 [requires]
